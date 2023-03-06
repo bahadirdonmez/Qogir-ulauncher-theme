@@ -1,0 +1,36 @@
+{
+    // Editor settings
+    // Whether or not to format the code when the file is saved
+    "editor.formatOnSave": true,
+    // To automatically fix violations when saving a Markdown document
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+    // Ruler lines to show in the editor
+    "editor.rulers": [
+        80
+    ],
+    "markdownlint.config": {
+        "default": true,
+        "MD004": {
+            "style": "dash"
+        },
+        "MD013": {
+            "strict": true,
+            "code_blocks": false,
+        },
+        "MD014": false,
+        "MD033": {
+            "allowed_elements": [
+                "kbd"
+            ]
+        },
+        "MD048": {
+            "style": "backtick",
+        },
+    },
+    // Settings for markdown files
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    }
+}

@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace
+    // recommendations.
+    // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+    // List of extensions which should be recommended for users of this workspace.
+    "recommendations": [
+        // Extension to check (lint) and format markdown files from within editor
+        "DavidAnson.vscode-markdownlint",
+        // Extension for changing built-in markdown preview to match Github's style
+        "bierner.markdown-preview-github-styles",
+    ],
+    // List of extensions recommended by VS Code that should not be recommended for 
+    // users of this workspace.
+    "unwantedRecommendations": []
+}
